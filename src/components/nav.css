@@ -1,0 +1,14 @@
+.menu.item {
+  padding: 0.5rem 0.7rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+.menu.item:hover {
+  background: #dadada;
+  border-radius: 4px;
+}
+
+.menu.item .fas {
+  color: #505050;
+}

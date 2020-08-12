@@ -1,14 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  margin-top: 82px;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -27,7 +31,7 @@ nav ul li a {
   color: gray;
 }
 
-nav ul li a.active , 
+nav ul li a.active,
 nav ul li a:hover {
   text-decoration: underline;
   color: orange;
@@ -71,7 +75,6 @@ div.pageContainer .row {
 
 img.productListImage {
   border-radius: 0px;
-
 }
 div.footer {
   background-color: gray;
@@ -80,7 +83,6 @@ div.footer {
 div.footer button {
   margin: 0px 5px;
 }
-  
 
 /* //////////////////////////// */
 
