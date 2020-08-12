@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav ul li a.active , 
+nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+div.pageContainer {
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  margin: 5px;
+}
+
+input.form-control {
+  margin: 10px 0px;
+}
+div.pageContainer h1 {
+  padding-left: 10px;
+  color: black;
+  background-color: #007bff;
+  margin-bottom: 20px;
+}
+
+div.pageContainer table {
+  margin: 10px;
+}
+
+div.pageContainer label {
+  margin-left: 12px;
+}
+
+div.pageContainer img {
+  width: 300px;
+  height: 100px;
+  width: 200px;
+  border-radius: 0;
+  border: none;
+}
+
+div.pageContainer .row {
+  margin: 0;
+}
+
+img.productListImage {
+  border-radius: 0px;
+
+}
+div.footer {
+  background-color: gray;
+}
+
+div.footer button {
+  margin: 0px 5px;
+}
+  
+
+/* //////////////////////////// */
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.board span {
+  width: 50px;
+}

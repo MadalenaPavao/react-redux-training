@@ -1,0 +1,11 @@
+.board {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.board span {
+    width: 50px;
+}
